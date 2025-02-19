@@ -1,0 +1,8 @@
+function sortStringAlphabetically(str) {
+    return str.split('').sort().join('');
+}
+
+// Example usage:
+let exampleString = "webmaster";
+console.log("Sorted String:", sortStringAlphabetically(exampleString)); 
+// Output: 'abeemrstw'
